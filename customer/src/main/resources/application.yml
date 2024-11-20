@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: customer
+server:
+  port: 9090
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: rashmitasubedi45@gmail.com
+    password: espz vlro xczn fvfe
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
